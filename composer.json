@@ -12,6 +12,13 @@
             "LumiteStudios\\LaravelBladeTiptap\\": "src"
         }
     },
+	"extra": {
+		"laravel": {
+			"providers": [
+				"LumiteStudios\\LaravelBladeTiptap\\LaravelBladeTiptapServiceProvider"
+			]
+		}
+	},
     "minimum-stability": "dev",
     "prefer-stable": true
 }

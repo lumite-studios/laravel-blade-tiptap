@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@tiptap/core": "^2.0.0-beta.99",
+        "@tiptap/extension-color": "^2.0.0-beta.2",
+        "@tiptap/extension-text-style": "^2.0.0-beta.17",
+        "@tiptap/extension-underline": "^2.0.0-beta.16",
+        "@tiptap/starter-kit": "^2.0.0-beta.97",
+        "alpinejs": "^3.2.3",
+        "laravel-mix": "^6.0.6"
+    }
+}
