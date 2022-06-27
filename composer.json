@@ -2,6 +2,7 @@
     "name": "lumite-studios/livewire-tiptap",
     "description": "Integrate Tiptap for Laravel with Blade, Livewire, and Alpine.",
     "type": "package",
+    "license": "proprietary",
     "require": {
         "php": "^8.0",
         "laravel/framework": "^8.0|^9.0",
@@ -12,13 +13,13 @@
             "LumiteStudios\\LaravelBladeTiptap\\": "src"
         }
     },
-	"extra": {
-		"laravel": {
-			"providers": [
-				"LumiteStudios\\LaravelBladeTiptap\\LaravelBladeTiptapServiceProvider"
-			]
-		}
-	},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LumiteStudios\\LaravelBladeTiptap\\LaravelBladeTiptapServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
