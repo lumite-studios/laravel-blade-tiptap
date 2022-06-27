@@ -1,5 +1,5 @@
 {
-    "name": "lumite-studios/laravel-blade-tiptap",
+    "name": "lumite-studios/livewire-tiptap",
     "description": "Integrate Tiptap for Laravel with Blade, Livewire, and Alpine.",
     "type": "package",
     "require": {
